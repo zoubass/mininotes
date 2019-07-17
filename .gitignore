@@ -1,0 +1,57 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+
+
+# dependencies
+/moisnotes-fe/node_modules
+/moisnotes-fe/.pnp
+/moisnotes-fe/.pnp.js
+
+# testing
+/moisnotes-fe/coverage
+
+# production
+/moisnotes-fe/build
+
+# misc
+/moisnotes-fe/.DS_Store
+/moisnotes-fe/.env.local
+/moisnotes-fe/.env.development.local
+/moisnotes-fe/.env.test.local
+/moisnotes-fe/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
